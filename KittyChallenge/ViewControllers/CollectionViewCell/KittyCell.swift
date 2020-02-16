@@ -26,21 +26,17 @@ class KittyCell: UICollectionViewCell {
     func set(barType: TabBarItem, and listType: ListType) {
         self.listType = listType
         imgView.downloadImage(from: listType.url)
-        
+        var buttonIsSelected = true
+        var buttonUserInteraction = true
         if barType == TabBarItem.allList {
-            if listType.favouriteId != nil {
-                btn.isSelected = true
-                setIcon(true)
-            } else {
-                btn.isSelected = false
-                setIcon(false)
-            }
-            btn.isUserInteractionEnabled = true
+            buttonIsSelected = listType.favouriteId != nil
         } else {
-            btn.isSelected = true
-            setIcon(true)
-            btn.isUserInteractionEnabled = false
+            buttonIsSelected = true
+            buttonUserInteraction = false
         }
+        btn.isSelected = buttonIsSelected
+        setIcon(buttonIsSelected)
+        btn.isUserInteractionEnabled = buttonUserInteraction
     }
     
     @IBAction func btnClicked(_ sender: UIButton) {

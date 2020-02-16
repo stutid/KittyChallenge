@@ -14,7 +14,7 @@ enum Key {
     var title: String {
         switch self {
         case .SubId:
-            return "stuti100"
+            return "stuti101"
         case .OK:
             return "OK"
         case .Loading:

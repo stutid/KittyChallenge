@@ -33,18 +33,12 @@ class KittyVM {
     
     //MARK: Get all cats/favourites count
     func getCount() -> Int {
-        if type == TabBarItem.allList {
-            return cats.count
-        }
-        return favouriteCats.count
+        return type == TabBarItem.allList ? cats.count : favouriteCats.count
     }
     
     //MARK: Get list type object
     func getObject(at index: Int) -> ListType {
-        if type == TabBarItem.allList {
-            return cats[index]
-        }
-        return favouriteCats[index]
+        return type == TabBarItem.allList ? cats[index] : favouriteCats[index]
     }
     
     //MARK: Fetch all cats
