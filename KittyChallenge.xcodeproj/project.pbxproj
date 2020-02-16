@@ -3,27 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		620A090BA7E2DC1BF4F73089 /* Pods_KittyChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B763F2A53FB2E5B7AEAEA11E /* Pods_KittyChallenge.framework */; };
 		8F214E2723F9E571006670B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F214E2623F9E571006670B2 /* AppDelegate.swift */; };
-		8F214E2923F9E571006670B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F214E2823F9E571006670B2 /* SceneDelegate.swift */; };
-		8F214E2B23F9E571006670B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F214E2A23F9E571006670B2 /* ViewController.swift */; };
 		8F214E2E23F9E571006670B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F214E2C23F9E571006670B2 /* Main.storyboard */; };
 		8F214E3023F9E572006670B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F214E2F23F9E572006670B2 /* Assets.xcassets */; };
 		8F214E3323F9E572006670B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F214E3123F9E572006670B2 /* LaunchScreen.storyboard */; };
+		8F214E3C23F9E634006670B2 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F214E3B23F9E634006670B2 /* ApiManager.swift */; };
+		8F214E3E23F9E66C006670B2 /* KittyApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F214E3D23F9E66C006670B2 /* KittyApiManager.swift */; };
+		8F214E4123F9E6A1006670B2 /* URLConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F214E4023F9E6A1006670B2 /* URLConstants.swift */; };
+		8F214E4323F9E6AC006670B2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F214E4223F9E6AC006670B2 /* Constants.swift */; };
+		8F214E4523F9E6EE006670B2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F214E4423F9E6EE006670B2 /* Extensions.swift */; };
+		8F214E4723F9E6F9006670B2 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F214E4623F9E6F9006670B2 /* Protocols.swift */; };
+		8F214E4A23F9E71C006670B2 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F214E4923F9E71C006670B2 /* TabBarVC.swift */; };
+		8F214E4C23F9E737006670B2 /* KittyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F214E4B23F9E737006670B2 /* KittyVC.swift */; };
+		8F214E4F23F9E770006670B2 /* KittyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F214E4E23F9E770006670B2 /* KittyCell.swift */; };
+		8F214E5223F9E790006670B2 /* KittyVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F214E5123F9E790006670B2 /* KittyVM.swift */; };
+		8F214E5523F9E7C4006670B2 /* KittyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F214E5423F9E7C4006670B2 /* KittyModel.swift */; };
+		8F214E5723F9E7D3006670B2 /* FavouriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F214E5623F9E7D3006670B2 /* FavouriteModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8F214E2323F9E571006670B2 /* KittyChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KittyChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F214E2623F9E571006670B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F214E2823F9E571006670B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8F214E2A23F9E571006670B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8F214E2D23F9E571006670B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F214E2F23F9E572006670B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F214E3223F9E572006670B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F214E3423F9E572006670B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F214E3B23F9E634006670B2 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		8F214E3D23F9E66C006670B2 /* KittyApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittyApiManager.swift; sourceTree = "<group>"; };
+		8F214E4023F9E6A1006670B2 /* URLConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConstants.swift; sourceTree = "<group>"; };
+		8F214E4223F9E6AC006670B2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8F214E4423F9E6EE006670B2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8F214E4623F9E6F9006670B2 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		8F214E4923F9E71C006670B2 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		8F214E4B23F9E737006670B2 /* KittyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittyVC.swift; sourceTree = "<group>"; };
+		8F214E4E23F9E770006670B2 /* KittyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittyCell.swift; sourceTree = "<group>"; };
+		8F214E5123F9E790006670B2 /* KittyVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittyVM.swift; sourceTree = "<group>"; };
+		8F214E5423F9E7C4006670B2 /* KittyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittyModel.swift; sourceTree = "<group>"; };
+		8F214E5623F9E7D3006670B2 /* FavouriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteModel.swift; sourceTree = "<group>"; };
+		AFBF879A905B1026F01DAFDE /* Pods-KittyChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KittyChallenge.debug.xcconfig"; path = "Target Support Files/Pods-KittyChallenge/Pods-KittyChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		B06185B6FBE0D3560B5E0A8C /* Pods-KittyChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KittyChallenge.release.xcconfig"; path = "Target Support Files/Pods-KittyChallenge/Pods-KittyChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		B763F2A53FB2E5B7AEAEA11E /* Pods_KittyChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KittyChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				620A090BA7E2DC1BF4F73089 /* Pods_KittyChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7939A41D4B6BAC549DBE426C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B763F2A53FB2E5B7AEAEA11E /* Pods_KittyChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8F214E1A23F9E571006670B2 = {
 			isa = PBXGroup;
 			children = (
 				8F214E2523F9E571006670B2 /* KittyChallenge */,
 				8F214E2423F9E571006670B2 /* Products */,
+				D5521A3D88DD5B9459519423 /* Pods */,
+				7939A41D4B6BAC549DBE426C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +92,81 @@
 			isa = PBXGroup;
 			children = (
 				8F214E2623F9E571006670B2 /* AppDelegate.swift */,
-				8F214E2823F9E571006670B2 /* SceneDelegate.swift */,
-				8F214E2A23F9E571006670B2 /* ViewController.swift */,
+				8F214E3A23F9E620006670B2 /* Networking */,
+				8F214E3F23F9E692006670B2 /* Helpers */,
+				8F214E4823F9E702006670B2 /* ViewControllers */,
+				8F214E5023F9E77D006670B2 /* ViewModels */,
+				8F214E5323F9E7A5006670B2 /* Model */,
 				8F214E2C23F9E571006670B2 /* Main.storyboard */,
 				8F214E2F23F9E572006670B2 /* Assets.xcassets */,
 				8F214E3123F9E572006670B2 /* LaunchScreen.storyboard */,
 				8F214E3423F9E572006670B2 /* Info.plist */,
 			);
 			path = KittyChallenge;
+			sourceTree = "<group>";
+		};
+		8F214E3A23F9E620006670B2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8F214E3B23F9E634006670B2 /* ApiManager.swift */,
+				8F214E3D23F9E66C006670B2 /* KittyApiManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		8F214E3F23F9E692006670B2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8F214E4023F9E6A1006670B2 /* URLConstants.swift */,
+				8F214E4223F9E6AC006670B2 /* Constants.swift */,
+				8F214E4423F9E6EE006670B2 /* Extensions.swift */,
+				8F214E4623F9E6F9006670B2 /* Protocols.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8F214E4823F9E702006670B2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8F214E4923F9E71C006670B2 /* TabBarVC.swift */,
+				8F214E4B23F9E737006670B2 /* KittyVC.swift */,
+				8F214E4D23F9E757006670B2 /* CollectionViewCell */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8F214E4D23F9E757006670B2 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8F214E4E23F9E770006670B2 /* KittyCell.swift */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		8F214E5023F9E77D006670B2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8F214E5123F9E790006670B2 /* KittyVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8F214E5323F9E7A5006670B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F214E5423F9E7C4006670B2 /* KittyModel.swift */,
+				8F214E5623F9E7D3006670B2 /* FavouriteModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D5521A3D88DD5B9459519423 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFBF879A905B1026F01DAFDE /* Pods-KittyChallenge.debug.xcconfig */,
+				B06185B6FBE0D3560B5E0A8C /* Pods-KittyChallenge.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F214E3723F9E572006670B2 /* Build configuration list for PBXNativeTarget "KittyChallenge" */;
 			buildPhases = (
+				6143A7CCC0E80F5003CB877E /* [CP] Check Pods Manifest.lock */,
 				8F214E1F23F9E571006670B2 /* Sources */,
 				8F214E2023F9E571006670B2 /* Frameworks */,
 				8F214E2123F9E571006670B2 /* Resources */,
+				8B819E11115A22AB10FAEAA1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +237,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6143A7CCC0E80F5003CB877E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KittyChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B819E11115A22AB10FAEAA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KittyChallenge/Pods-KittyChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KittyChallenge/Pods-KittyChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KittyChallenge/Pods-KittyChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8F214E1F23F9E571006670B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F214E2B23F9E571006670B2 /* ViewController.swift in Sources */,
+				8F214E4C23F9E737006670B2 /* KittyVC.swift in Sources */,
+				8F214E3C23F9E634006670B2 /* ApiManager.swift in Sources */,
+				8F214E5223F9E790006670B2 /* KittyVM.swift in Sources */,
+				8F214E4A23F9E71C006670B2 /* TabBarVC.swift in Sources */,
 				8F214E2723F9E571006670B2 /* AppDelegate.swift in Sources */,
-				8F214E2923F9E571006670B2 /* SceneDelegate.swift in Sources */,
+				8F214E5723F9E7D3006670B2 /* FavouriteModel.swift in Sources */,
+				8F214E4723F9E6F9006670B2 /* Protocols.swift in Sources */,
+				8F214E5523F9E7C4006670B2 /* KittyModel.swift in Sources */,
+				8F214E4523F9E6EE006670B2 /* Extensions.swift in Sources */,
+				8F214E4123F9E6A1006670B2 /* URLConstants.swift in Sources */,
+				8F214E4323F9E6AC006670B2 /* Constants.swift in Sources */,
+				8F214E3E23F9E66C006670B2 /* KittyApiManager.swift in Sources */,
+				8F214E4F23F9E770006670B2 /* KittyCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +438,12 @@
 		};
 		8F214E3823F9E572006670B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFBF879A905B1026F01DAFDE /* Pods-KittyChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KittyChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +457,12 @@
 		};
 		8F214E3923F9E572006670B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B06185B6FBE0D3560B5E0A8C /* Pods-KittyChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KittyChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
